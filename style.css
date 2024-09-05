@@ -6,12 +6,6 @@
   padding: 0;
   margin: 0;
 }
-html body {
-  height: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
 .MainContainer {
   height: 100vh;
   display: flex;
@@ -76,4 +70,10 @@ button:hover {
   color: rgb(136, 136, 136);
   margin-bottom: 20px;
   font-family: Inter;
+}
+h1 {
+  color: white;
+  font-size: 25px;
+  font-family: Inter;
+  margin: -10px;
 }
